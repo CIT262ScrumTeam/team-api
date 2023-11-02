@@ -1,7 +1,7 @@
 
 const response = await fetch('http://localhost:3000/josh');
 const name = await response.text();
-expect.(name).toBe("Hello Josh");
+expect(name).toBe("Hello Josh");
 
 // const fetch = require("node-fetch2");
 
